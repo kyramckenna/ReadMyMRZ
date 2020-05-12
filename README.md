@@ -1,7 +1,3 @@
-# Reading Phone Numbers in Real Time
+# Read a Passport MRZ
 
-Analyze and filter phone numbers from text recognized in live capture, building evidence over time.
-
-## Overview
-
-- Note: For more information about this sample code project, see [WWDC 2019 Session 234: Text Recognition in Vision Framework](https://developer.apple.com/videos/play/wwdc19/234/).
+Checks that the Passport is real via its correct MRZ. Only set up for Irish, British and Australian Passports. But just go to recognizeTextHandler() to add your passport prefix
